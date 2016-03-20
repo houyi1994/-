@@ -1,0 +1,66 @@
+<! doctype html>
+<html>
+<body>
+<h1>网站一级标题</h1>
+<ul>
+  <li><a href="http://www.baidu.com/">导航链接1</a></li>
+  <li><a href="http://www.baidu.com/">导航链接2</a></li>
+  <li><a href="http://www.baidu.com/">导航链接3</a></li>
+  <li><a href="http://www.baidu.com/">导航链接4</a></li>
+</ul>
+<h2>文章一级标题</h2>
+<h2>文章二级标题</h2>
+<img src=http://img2.imgtn.bdimg.com/it/u=1344363400,1186466848&fm=21&gp=0.jpg>
+<ol>
+<li>排名1
+<li>排名2
+<li>排名3
+</ol>
+<p>下面是一个表格</p>
+<table border="1">
+<tr>
+  <th>表头</th>
+  <th>表头</th>
+  <th>表头</th>
+</tr>
+<tr>
+  <td>内容</td>
+  <td>内容</td>
+  <td>内容</td>
+<tr>
+ <th>总计</th>
+ <th colspan=2>1000</th>
+</tr>
+</table>
+<form>
+邮箱：
+<input type="text" >
+<form>
+密码：
+<input type="text" >
+<form>
+性别：
+男
+<input type="radio" checked="checked" name="Sex" value="male" />
+<br />
+女
+<input type="radio" name="Sex" value="female" />
+</form>
+<form>
+城市:
+<select name=“城市”>
+<option value=“北京”>北京</option>
+<option value=“上海”>上海</option>
+</select>
+</form>
+<form>
+爱好：
+<input type="checkbox" name=“运动”>
+<input type="checkbox" name=“艺术”>
+个人描述：
+<textarea cols="30" rows="5">
+请输入个人描述。
+</textarea>
+<input type="submit" value="Submit" />
+</body>
+</html>
