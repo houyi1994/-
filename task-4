@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.rectangle{
+      width: 400px;
+			height: 200px;
+			background: #ccc;
+			position: absolute;
+			left:50%;
+			top:50%;
+			margin-left:-200px;
+			margin-top:-100px;
+			overflow: hidden;/*超出宽度或高度的部分，就隐藏了*/
+      }/*绝对定位的元素left设为50%时，是已左上角为原点的，所以只要再使用margin属性添加负值补偿回来即可*/
+      .corner{
+        position: absolute;
+        width:100px;
+        height: 100px;
+        border-radius: 50%;
+        background: #fc0;
+      }
+.top-corner{
+  left:-50px;
+  top:-50px;
+}
+.bottom-corner{
+  right:-50px;
+  bottom:-50px;
+}
+</style>
+</head>
+
+<body>
+<div class="rectangle">
+  <div class="corner top-corner"></div>
+  <div class="corner bottom-corner"></div>
+</div>
+</body>
+</html>
